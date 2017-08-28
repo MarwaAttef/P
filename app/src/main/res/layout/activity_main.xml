@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.marwa.patient.activity.MainActivity">
+
+    <TextView
+        android:id="@+id/userid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="userid" />
+
+
+    <TextView
+        android:id="@+id/museremail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/userid"
+        android:layout_marginTop="15dp"
+        android:text="user email" />
+
+    <TextView
+        android:id="@+id/muserpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/museremail"
+        android:layout_marginTop="15dp"
+        android:text="user password" />
+
+    <EditText
+        android:id="@+id/musername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/muserpass"
+        android:hint="Enter user name" />
+
+    <EditText
+        android:id="@+id/confirmation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/musername"
+        android:hint="confirmation" />
+
+    <EditText
+        android:id="@+id/type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/confirmation"
+        android:hint="type" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/type"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Save" />
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/save"
+        android:layout_centerHorizontal="true"
+        android:text="cancel(Remove user)" />
+
+    <Button
+        android:id="@+id/removetime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cancel"
+        android:layout_centerHorizontal="true"
+        android:text="remove after time" />
+
+    <Button
+        android:id="@+id/mlogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/removetime"
+        android:layout_centerHorizontal="true"
+        android:text="logout" />
+
+
+</RelativeLayout>

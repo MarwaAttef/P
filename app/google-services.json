@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "468243994454",
+    "firebase_url": "https://patient-77ae2.firebaseio.com",
+    "project_id": "patient-77ae2",
+    "storage_bucket": "patient-77ae2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:468243994454:android:2d6d33895838c7d4",
+        "android_client_info": {
+          "package_name": "com.example.marwa.patient"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "468243994454-7f86j5f7f77c0gf26ei4rp608bt4dkav.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.marwa.patient",
+            "certificate_hash": "62a04bf82b54e84fe4ec5e9e9f7a6c26cf688ab6"
+          }
+        },
+        {
+          "client_id": "468243994454-hlvj3orbe8sejfis5t2q3vu4il5hf5mf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2KgEIAemcTwugY1fFQckeJaGDZI5jPHE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "468243994454-hlvj3orbe8sejfis5t2q3vu4il5hf5mf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
